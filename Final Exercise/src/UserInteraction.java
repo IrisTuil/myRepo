@@ -19,7 +19,8 @@ public class UserInteraction
 		
 		while (Ark.getfullcells() < Ark.getArkSize() && !answer.equals ("exit"))
 		{
-				System.out.println("Do you want to generatre a new Animal? (yes/no)");
+				System.out.println("Welcome to the ARK, where fun never sleeps;)" + "\n" +  
+						"Do you want to generatre a new Animal? (yes/no)");
 				answer = input.next();
 		
 				if(answer.equals("yes"))
