@@ -98,7 +98,7 @@ public class UserInteraction
 				}
 				else if(answer.equals("no"))
 				{
-					System.out.println("bye bye FU FU FU!!");
+					System.out.println("bye bye!!");
 					answer = (Ark.differentAnswer(answer));
 				}
 				else
